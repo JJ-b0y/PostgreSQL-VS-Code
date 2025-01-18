@@ -51,9 +51,9 @@ ORDER BY
 LIMIT 10;
 ```
 ### Breaking down my findings of the top Data Analyst jobs in 2023:
-### - **Wide Salary Range:** Top 10 paying data analyst roles span from $184,000 to $650,000, indicating significant salary potential in the field.
-### - **Diverse Employers:** Companies like SmartAsset, Meta, and AT&T are among those offering high salaries, showing a broad interest across different industries.
-### - **Job Title Variety:** Job titles are diverse, for example; Director of Analytics, reflecting varied roles and specializations within data analytics.
+#### - **Wide Salary Range:** Top 10 paying data analyst roles span from $184,000 to $650,000, indicating significant salary potential in the field.
+#### - **Diverse Employers:** Companies like SmartAsset, Meta, and AT&T are among those offering high salaries, showing a broad interest across different industries.
+#### - **Job Title Variety:** Job titles are diverse, for example; Director of Analytics, reflecting varied roles and specializations within data analytics.
 
 ![Top Paying Companies](project_sql\assets\top_10_paying_data_jobs.png)
 *Bar graph visualizing the salary for the top 10 salaries for Data Analysts, as well as the companies associated with these offers.*
@@ -173,12 +173,12 @@ ORDER BY
 LIMIT 20;
 ```
 
-### Breaking down our result:
-#### **Top Skills in Demand:** The highest-paying skill for data analysts is PySpark with an average salary of $208,172 reflecting the strong demand for big data processing capabilities.
-#### **Collaboration Tools:** Skills like Bitbucket and GitLab, with salaries of $189,155 and $154,500, respectively, highlight the importance of collaboration and version control in data projects.
-#### **AI and Cloud Technologies:** Proficiency in AI tools such as Watson and cloud technologies like Databricks (average salary of $141,907) indicates a growing trend towards integrating advanced technologies in data analytics roles.
-
 ![Skills Based on Salary](project_sql\assets\top_paying_data_skills.png)
+
+### Breaking down our result:
+#### - **Highest Paying Skill:** SVN stands out with an impressive average salary of $400,000.
+#### - **Emerging Technologies:** Skills like Solidity and DataRobot are also lucrative options for professionals in the tech industry.
+#### - **Machine Learning Frameworks:** Skills in machine learning frameworks such as TensorFlow, Keras, and PyTorch are in demand and offer competitive salaries.
 
 ## 5. **Most Optimal Skills to Acquire**
 ### Combining insights from our demand count and salary data, this query aim to pinpoint skills that are both in demand and have high salaries, offering a strategic focus for skill development.
@@ -210,13 +210,15 @@ LIMIT 25;
 ```
 
 ![Most Optimal Skills](project_sql\assets\most_optimal_skill.PNG)
+
 *Illustrating the Top 10 Most Optimal Skill, comparing their average salary to their demand count.*
 
 ### Breaking down the most optimal skills for Data Analysts in 2023.
-### - **High-Demand Programming Language:** Python and R stand out for their high demand, with demand counts of 236 and 148 respectively. Despite their high demand, their average salaries are around $101,397 for Python, and $100,499 for R. This indicates that proficiency in these languages is highly valued, but also widely available.
-### - **Cloud Tools and Technologies:** Skills in specialized technologies such as Snowflake, Azure, AWS, and BigQuery show signnificant demand with relatively high average salaries, signifying the growing importance of cloud platforms and big data technologies in data analysis.
-### - **Business Intelligence and Visualization Tools:** Tableau and Looker, with demand counts of 230 and 49 respectively and average salaries of about $99,288 and $103,795 respectively. This information highlights the crucial role of business inteliigence and data visualization in deriving actionable insights from data to inform business strategy.
-### - **Database Technology:** The demand for skills in traditional and NoSQL database (Oracle, SQL Server, NoSQL) with average salaries ranging from $97,786to $104,534, reflects the enduring need for data storage, retrieval, and management expertise.
+#### - **High Demand for Cloud Technologies:** Skills related to cloud platforms, such as Snowflake, Azure, and AWS, show strong demand counts, indicating a significant trend towards cloud computing in the job market.
+#### - **Competitive Average Salaries:** The average salaries for these in-demand skills are notably high, with Go leading at $115,320, followed closely by Hadoop at $113,193 and Snowflake at $112,948. This suggests that expertise in these areas are highly valued and can lead to lucrative job opportunities.
+#### - **Diverse Skill Set Opportunities:** The data reflects a variety of skills across different domains (e.g., cloud computing, project management tools like Jira and Confluence), suggesting that job seekers can enhance their employability by diversifying their skill sets to include both technical and project management competencies.
+NOTE: Although the demand for Confluence is high, the salary for it is low, this specifcally suggests that Confluence is a skill worthy of adding to your portfolio, but NOT at the forefront.
+#### - **Emerging Trends in Data Management:** The presence of tools like Snowflake and BigQuery indicates a growing emphasis on data management and analytics. As organizations increasingly rely on data-driven decision-making, proficiency in these tools will likely become essential for Data Analysts aiming to stay relevant in the evolving tech landscape.
 
 # What I learned
 ### Through out this project, I have turbocharged my SQL toolkit with some firepower:
