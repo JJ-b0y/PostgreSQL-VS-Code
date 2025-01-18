@@ -217,7 +217,7 @@ LIMIT 25;
 #### - **High Demand for Cloud Technologies:** Skills related to cloud platforms, such as Snowflake, Azure, and AWS, show strong demand counts, indicating a significant trend towards cloud computing in the job market.
 #### - **Competitive Average Salaries:** The average salaries for these in-demand skills are notably high, with Go leading at $115,320, followed closely by Hadoop at $113,193 and Snowflake at $112,948. This suggests that expertise in these areas are highly valued and can lead to lucrative job opportunities.
 #### - **Diverse Skill Set Opportunities:** The data reflects a variety of skills across different domains (e.g., cloud computing, project management tools like Jira and Confluence), suggesting that job seekers can enhance their employability by diversifying their skill sets to include both technical and project management competencies.
-NOTE: Although the demand for Confluence is high, the salary for it is low, this specifcally suggests that Confluence is a skill worthy of adding to your portfolio, but NOT at the forefront.
+NOTE: Although the demand for Confluence is high, the salary for it is low, this specifically suggests that Confluence is a skill worthy of adding to your portfolio, but NOT at the forefront.
 #### - **Emerging Trends in Data Management:** The presence of tools like Snowflake and BigQuery indicates a growing emphasis on data management and analytics. As organizations increasingly rely on data-driven decision-making, proficiency in these tools will likely become essential for Data Analysts aiming to stay relevant in the evolving tech landscape.
 
 # What I learned
